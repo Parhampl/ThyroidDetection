@@ -43,39 +43,9 @@ The model provides evaluation metrics such as:
 ## Dataset
 The dataset (`ThyroidDetection.csv`) includes features relevant to thyroid health diagnosis.
 
-# Thyroid Detection
-
-This repository demonstrates a machine learning pipeline for predicting thyroid health status using a dataset of diagnostic features. The project implements classical machine learning techniques to explore and solve a healthcare-related problem.
-
----
-
-## Problem Statement
-
-The objective is to predict the `Thyroid Status` column in the dataset based on the provided diagnostic features. The solution involves:
-- Preprocessing: Encoding categorical features and splitting data into training/testing sets.
-- Modeling: Training a **Random Forest Classifier** to classify thyroid health status.
-- Evaluation: Assessing the model's performance using metrics like accuracy, precision, recall, and F1-score.
-
----
-
-## Features of the Repository
-
-1. **Dataset**:
-   - The dataset `ThyroidDetection.csv` is located in the `data/` folder.
-   - It includes diagnostic attributes for thyroid health prediction.
-
-2. **Code Implementation**:
-   - A complete machine learning pipeline in Python.
-   - Available as:
-     - A Python script: `scripts/thyroid_detection.py`
-     - A Jupyter Notebook: `notebooks/ML_First_Practice.ipynb`
-
-3. **Model and Evaluation**:
-   - Uses a **Random Forest Classifier** with hyperparameter tuning.
-   - Evaluation includes both overall accuracy and per-class metrics.
-
-4. **Documentation**:
-   - Problem statement in Persian is provided as `docs/تمرین یادگیری ماشین.pdf`.
+## Acknowledgments
+- Problem statement from the file `تمرین یادگیری ماشین.pdf`.
+- Machine learning implementation using scikit-learn.
 
 ---
 
@@ -101,7 +71,3 @@ This project was an excellent opportunity to deepen my understanding of the foll
    - Structuring projects for readability, reproducibility, and maintainability.
 
 ---
-
-## Acknowledgments
-- Problem statement from the file `تمرین یادگیری ماشین.pdf`.
-- Machine learning implementation using scikit-learn.
